@@ -19,7 +19,10 @@ body {
 .titulo {
 
     background-color: #BB86FC;
-    width: 22em;
+    /* width: 22em; */
+    box-sizing: border-box;
+    width: 44.2em;
+    padding: 1em;
     
     text-align: center;
 }

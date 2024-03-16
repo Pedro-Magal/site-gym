@@ -1,0 +1,46 @@
+/* * {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    
+} */
+
+
+body {
+    background-color: #36175c;
+    
+    
+    
+}
+
+
+.titulo {
+
+    background-color: #BB86FC;
+    width: 22em;
+    
+    text-align: center;
+}
+
+
+
+
+.cabecalho {
+
+    background-color: #BB86FC;
+}
+
+.text {
+
+    color: #ffff;
+    padding: 1em;
+    border: 2em;
+}
+
+.tabela {
+
+    background-color: #424250;
+
+}

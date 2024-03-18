@@ -7,10 +7,16 @@
     
 } */
 
+.paginainiciallink {
 
-body {
-    background-color: #36175c;
-    
+    padding-top: 12em;
+    font-size: 20px;
+}
+
+.texto-alinhado-no-centro
+{
+    background-color: #7002f5;
+    text-align: center;
     
     
 }

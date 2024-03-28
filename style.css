@@ -7,21 +7,17 @@
     
 } */
 
+*{
+    padding: 0px;
+    border: 0px;
+}
+
 .paginainiciallink {
 
     padding-top: 12em;
     font-size: 20px;
     color: #ffff;
 }
-
-.texto-alinhado-no-centro
-{
-    background-color: #04ef6a;
-    text-align: center;
-    
-    
-}
-
 
 .titulo {
 
@@ -53,4 +49,62 @@
 
     background-color: #424250;
 
+}
+
+/* .rodape-menu-principal {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+} */
+
+.rodape-menu-principal {
+    padding: 3em;
+    margin-top: 3em;
+    margin-left: 5em;
+    border: solid 20px;
+
+    background-color: black;
+    font-size: 2em;
+    width: 20em;
+}
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+
+.texto-alinhado-no-centro {
+    
+       text-align: center;
+   } 
+   
+.fundo-pagina-principal {
+    background-color: #05f086;
+}
+
+.fundo-planos {
+    background-color: #03ffff
+
+}
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+.texto-minusculo {
+    text-transform: lowercase;
+}
+
+
+
+@font-face {
+    font-family: 'nova';
+    src: url('./fontes-site-gym/Capture\ it.ttf');
+}
+
+.fonte-tenada {
+    font-family: 'nova';
 }

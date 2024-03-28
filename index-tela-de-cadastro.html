@@ -11,8 +11,8 @@
     <h1>Cadastre-se</h1>
     <p>É rápido e fácil</p>
 
-    <form method="get" action="index-tela-de-cadastro.html">
-        <input type="text" name="nome" name="nome" placeholder="Digite seu nome">
+    <form method="get" action="index-tela-de-cadastro.html" anctype="multipart/form-data">
+        <input type="text" name="nome" name="nome" placeholder="Digite seu nome" required>
         <input type="text" name="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
         <br>
         <input type="text" name="celular-ou-email" name="celular-ou-email" placeholder="celular ou email">
@@ -112,7 +112,7 @@
         <input type="radio" name="genero" id="masculino" value="masculino"> 
         
         <label for="feminino">Feminino</label>
-        <input type="radio" name="genero" id="feminino" value="feminino">
+        <input type="radio" name="genero" id="feminino" value="feminino" selected>
         
         <label for="personalizado">Personalizado</label>
         <input type="radio" name="genero" id="personalizado" value="personalizado">
@@ -120,7 +120,9 @@
         <br>
         <br>
         <input type="submit" value="Cadastre-se">
-        
+
+        <input type="file"> 
+        <!-- pode servir pro usuário selecionar uma logo, imagem para usar no perfil do Facebook         -->
     </form>
     <br>
     <br>
